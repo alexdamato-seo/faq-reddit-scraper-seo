@@ -1,0 +1,11 @@
+# Reddit API wrapper
+praw==7.7.1
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Data handling
+pandas==2.1.4
+
+# HTTP requests (backup for non-PRAW features)
+requests==2.31.0
