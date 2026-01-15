@@ -1,0 +1,169 @@
+[
+  {
+    "category": "Confocal Microscopes",
+    "title": "What's the difference between confocal and widefield microscopy?",
+    "selftext": "I'm setting up a new imaging core facility and trying to decide between investing in a confocal system vs widefield with deconvolution. What are the main advantages of confocal for cell biology applications?",
+    "url": "https://reddit.com/r/microscopy/comments/sample1",
+    "score": 45,
+    "num_comments": 23,
+    "created_utc": "2025-11-15T14:23:00",
+    "author": "lab_manager_23",
+    "subreddit": "microscopy",
+    "post_id": "sample1"
+  },
+  {
+    "category": "Confocal Microscopes",
+    "title": "Best confocal microscope for live cell imaging under $200k?",
+    "selftext": "Our lab focuses on neuroscience and we need a confocal system that can handle fast live-cell imaging of calcium dynamics. Budget is around $200k. Looking at Leica SP8, Zeiss LSM 900, and Nikon A1R. Any recommendations?",
+    "url": "https://reddit.com/r/labrats/comments/sample2",
+    "score": 38,
+    "num_comments": 31,
+    "created_utc": "2025-10-22T09:15:00",
+    "author": "postdoc_imaging",
+    "subreddit": "labrats",
+    "post_id": "sample2"
+  },
+  {
+    "category": "Inverted Microscopes",
+    "title": "Recommendations for inverted microscope for tissue culture?",
+    "selftext": "We're a small biotech startup and need a reliable inverted microscope for checking cell cultures daily. Don't need fancy imaging, just phase contrast. What's a good entry-level option?",
+    "url": "https://reddit.com/r/labrats/comments/sample3",
+    "score": 29,
+    "num_comments": 18,
+    "author": "biotech_startup",
+    "subreddit": "labrats",
+    "post_id": "sample3"
+  },
+  {
+    "category": "Inverted Microscopes",
+    "title": "Olympus IX83 vs Nikon Eclipse Ti2 - which should I choose?",
+    "selftext": "Our core facility is upgrading our inverted microscope and it's down to these two models. Both seem comparable on paper. Anyone have experience with either for fluorescence imaging of live cells?",
+    "url": "https://reddit.com/r/microscopy/comments/sample4",
+    "score": 42,
+    "num_comments": 27,
+    "author": "core_facility_director",
+    "subreddit": "microscopy",
+    "post_id": "sample4"
+  },
+  {
+    "category": "Digital Microscopes",
+    "title": "Digital microscope recommendations for quality control?",
+    "selftext": "Working in pharma QC and need a digital microscope for inspecting samples and documenting defects. Need good depth of field and easy image capture. Budget around $5-10k.",
+    "url": "https://reddit.com/r/biotech/comments/sample5",
+    "score": 22,
+    "num_comments": 14,
+    "author": "qc_specialist",
+    "subreddit": "biotech",
+    "post_id": "sample5"
+  },
+  {
+    "category": "Stereo Microscopes",
+    "title": "Best stereo microscope for dissection work?",
+    "selftext": "PhD student here doing a lot of mouse brain dissections. Current scope is ancient and hard to see fine details. What's a good modern stereo microscope with excellent optics? University can probably budget up to $15k.",
+    "url": "https://reddit.com/r/neuroscience/comments/sample6",
+    "score": 35,
+    "num_comments": 19,
+    "author": "neuro_phd_student",
+    "subreddit": "neuroscience",
+    "post_id": "sample6"
+  },
+  {
+    "category": "Stereo Microscopes",
+    "title": "Stereo microscope with good working distance for electrophysiology?",
+    "selftext": "Need a stereo scope for patch clamp rig. Need at least 100mm working distance to fit electrodes. Also needs to be stable with minimal vibration. Suggestions?",
+    "url": "https://reddit.com/r/neuroscience/comments/sample7",
+    "score": 28,
+    "num_comments": 12,
+    "author": "electrophysiologist",
+    "subreddit": "neuroscience",
+    "post_id": "sample7"
+  },
+  {
+    "category": "Microscope Cameras",
+    "title": "What camera should I get for my fluorescence microscope?",
+    "selftext": "Have an older Olympus BX51 and want to add a camera for fluorescence imaging. Looking at scientific CMOS vs cooled CCD. Budget is $10-15k. Mainly imaging immunofluorescence samples.",
+    "url": "https://reddit.com/r/microscopy/comments/sample8",
+    "score": 41,
+    "num_comments": 25,
+    "author": "imaging_tech",
+    "subreddit": "microscopy",
+    "post_id": "sample8"
+  },
+  {
+    "category": "Microscope Cameras",
+    "title": "sCMOS vs EMCCD for live cell imaging - help me decide?",
+    "selftext": "Setting up a new live cell imaging system and torn between sCMOS and EMCCD cameras. Will be doing fast calcium imaging and tracking single molecules. What are the trade-offs?",
+    "url": "https://reddit.com/r/cellbiology/comments/sample9",
+    "score": 52,
+    "num_comments": 34,
+    "author": "cell_biologist",
+    "subreddit": "cellbiology",
+    "post_id": "sample9"
+  },
+  {
+    "category": "Digital Pathology Systems",
+    "title": "Whole slide imaging system recommendations for pathology lab?",
+    "selftext": "Our pathology department is going digital. Looking at whole slide scanners from Aperio, Hamamatsu, and 3DHistech. Anyone have experience with these for routine diagnostic work?",
+    "url": "https://reddit.com/r/pathology/comments/sample10",
+    "score": 37,
+    "num_comments": 21,
+    "author": "pathologist_md",
+    "subreddit": "pathology",
+    "post_id": "sample10"
+  },
+  {
+    "category": "Upright Microscopes",
+    "title": "Upright microscope for neuroscience slice imaging?",
+    "selftext": "Need an upright microscope with good DIC and fluorescence for imaging brain slices. Fixed stage, needs long working distance objectives. Zeiss Examiner vs Olympus BX61WI?",
+    "url": "https://reddit.com/r/neuroscience/comments/sample11",
+    "score": 33,
+    "num_comments": 16,
+    "author": "slice_physiologist",
+    "subreddit": "neuroscience",
+    "post_id": "sample11"
+  },
+  {
+    "category": "Confocal Microscopes",
+    "title": "How much does confocal maintenance typically cost?",
+    "selftext": "Writing a grant and need to budget for a confocal system. Besides purchase price, what should I expect for annual service contracts and maintenance? Heard it can be quite expensive.",
+    "url": "https://reddit.com/r/labrats/comments/sample12",
+    "score": 47,
+    "num_comments": 29,
+    "author": "grant_writer_pi",
+    "subreddit": "labrats",
+    "post_id": "sample12"
+  },
+  {
+    "category": "Inverted Microscopes",
+    "title": "Why are inverted microscopes so much more expensive than upright?",
+    "selftext": "Shopping for a new microscope and noticed inverted models are often 2-3x the price of comparable upright scopes. What makes them so expensive? Is it just the design or are there technical reasons?",
+    "url": "https://reddit.com/r/microscopy/comments/sample13",
+    "score": 31,
+    "num_comments": 22,
+    "author": "curious_researcher",
+    "subreddit": "microscopy",
+    "post_id": "sample13"
+  },
+  {
+    "category": "Confocal Microscopes",
+    "title": "Spinning disk vs point scanning confocal for live imaging?",
+    "selftext": "Can someone explain the pros and cons? I know spinning disk is faster but does it compromise image quality? Mainly interested in live cell imaging of organelles.",
+    "url": "https://reddit.com/r/cellbiology/comments/sample14",
+    "score": 56,
+    "num_comments": 38,
+    "author": "live_cell_enthusiast",
+    "subreddit": "cellbiology",
+    "post_id": "sample14"
+  },
+  {
+    "category": "Microscope Cameras",
+    "title": "Is a color camera worth it for brightfield microscopy?",
+    "selftext": "Upgrading our teaching lab microscopes and debating between monochrome + filter wheel vs color cameras. Color is more intuitive for students but is the image quality worse?",
+    "url": "https://reddit.com/r/microscopy/comments/sample15",
+    "score": 24,
+    "num_comments": 15,
+    "author": "teaching_prof",
+    "subreddit": "microscopy",
+    "post_id": "sample15"
+  }
+]
