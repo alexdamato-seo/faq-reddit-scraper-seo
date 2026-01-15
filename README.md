@@ -5,6 +5,7 @@ A Python-based scraper that collects frequently asked questions about microscopy
 ## Features
 
 - Scrapes Reddit for microscopy-related questions
+- **Two scraping methods**: with API (faster) or without API (no setup required)
 - Supports multiple microscopy categories:
   - Inverted Microscopes
   - Confocal Microscopes
@@ -17,7 +18,27 @@ A Python-based scraper that collects frequently asked questions about microscopy
 - Filters for question-based posts
 - Collects post titles, content, upvotes, and comments
 
-## Setup
+## Quick Start (No API Required) - RECOMMENDED
+
+The easiest way to get started is to use the API-free version:
+
+1. Install Python 3.8 or higher
+
+2. Install minimal dependencies:
+```bash
+pip install -r requirements_no_api.txt
+```
+
+3. Run the scraper:
+```bash
+python reddit_scraper_no_api.py
+```
+
+That's it! No API keys or authentication needed. The scraper uses Reddit's public JSON endpoints.
+
+## Alternative: Using Reddit API (Faster)
+
+If you want faster scraping with official API support:
 
 1. Install Python 3.8 or higher
 
@@ -44,14 +65,24 @@ REDDIT_CLIENT_SECRET=your_client_secret_here
 REDDIT_USER_AGENT=microscopy_faq_scraper_v1.0
 ```
 
-## Usage
-
-Run the scraper:
+6. Run the API-based scraper:
 ```bash
 python reddit_scraper.py
 ```
 
-The scraper will:
+## Which Version Should I Use?
+
+| Feature | No API (`reddit_scraper_no_api.py`) | With API (`reddit_scraper.py`) |
+|---------|-----------------------------------|-------------------------------|
+| Setup Required | None - just run it! | Need Reddit API credentials |
+| Speed | Slower (2s delay between requests) | Faster (better rate limits) |
+| Rate Limits | Manual delays to be respectful | Handled by PRAW library |
+| Reliability | Very reliable | Very reliable |
+| Recommendation | ✅ Best for getting started | For production/frequent use |
+
+## How It Works
+
+Both scrapers will:
 - Search Reddit for microscopy-related questions
 - Filter for posts with question keywords
 - Save results to `output/` directory as both CSV and JSON

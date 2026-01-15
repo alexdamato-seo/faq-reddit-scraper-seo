@@ -1,0 +1,7 @@
+# Minimal requirements for API-free scraping
+
+# HTTP requests
+requests==2.31.0
+
+# Data handling
+pandas==2.1.4

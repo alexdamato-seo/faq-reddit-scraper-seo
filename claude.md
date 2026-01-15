@@ -30,17 +30,23 @@ This is a Reddit scraper designed to collect frequently asked questions about mi
 ## Implementation Details
 
 ### Current Features (v1.0)
-- Reddit scraping using PRAW (Python Reddit API Wrapper)
+- **Two scraping methods**:
+  - `reddit_scraper.py`: Using PRAW (Python Reddit API Wrapper) - requires API credentials
+  - `reddit_scraper_no_api.py`: Using Reddit's public JSON endpoints - NO API REQUIRED ⭐
 - Support for 7 microscopy equipment categories
-- Multi-subreddit search capability
+- Multi-subreddit search capability (18+ subreddits)
 - Question detection and filtering
 - CSV and JSON export formats
 - Configurable search parameters
+- Respectful rate limiting (2s delay for API-free version)
 
 ### Architecture
 - `config.py`: Centralized configuration for categories, keywords, and search parameters
-- `reddit_scraper.py`: Main scraper implementation
-- `.env`: Environment variables for API credentials (not committed)
+- `reddit_scraper.py`: API-based scraper using PRAW (faster, requires credentials)
+- `reddit_scraper_no_api.py`: JSON endpoint scraper (no auth required, easier setup)
+- `requirements.txt`: Full dependencies including PRAW
+- `requirements_no_api.txt`: Minimal dependencies (just requests + pandas)
+- `.env`: Environment variables for API credentials (optional, not committed)
 - `output/`: Generated FAQ data files
 
 ### Microscopy Categories Covered
@@ -144,7 +150,14 @@ When adding features, update:
 
 ### Session 1: Initial Implementation
 - Created project structure
-- Implemented Reddit scraper
+- Implemented Reddit scraper with PRAW (API-based)
 - Added 7 microscopy categories
 - CSV/JSON export functionality
 - Basic documentation
+
+### Session 2: API-Free Implementation
+- Added `reddit_scraper_no_api.py` - scraper using Reddit's public JSON endpoints
+- No API credentials or authentication required
+- Created `requirements_no_api.txt` for minimal dependencies
+- Updated documentation to explain both methods
+- Recommended API-free version for getting started (easier setup)
