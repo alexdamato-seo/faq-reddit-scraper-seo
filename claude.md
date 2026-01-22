@@ -62,7 +62,7 @@ This is a Reddit scraper designed to collect frequently asked questions about mi
 
 ### High Priority
 - [ ] **Quora Integration**: Add Quora scraper alongside Reddit (mentioned in original request)
-- [ ] **Deduplication**: Remove duplicate questions across categories and sources
+- [x] **Deduplication**: Remove duplicate questions across categories and sources ✅
 - [ ] **Answer Extraction**: Scrape top-voted answers/comments for each question
 - [ ] **Sentiment Analysis**: Identify pain points and common issues users face
 - [ ] **Keyword Extraction**: Extract key terms and phrases for SEO optimization
@@ -161,3 +161,9 @@ When adding features, update:
 - Created `requirements_no_api.txt` for minimal dependencies
 - Updated documentation to explain both methods
 - Recommended API-free version for getting started (easier setup)
+
+### Session 3: Deduplication Feature
+- Implemented automatic deduplication in both scrapers
+- Removes duplicate posts based on `post_id` before saving results
+- Logs number of duplicates removed for transparency
+- Prevents same post from appearing multiple times when it matches multiple categories

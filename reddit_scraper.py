@@ -185,6 +185,23 @@ class RedditMicroscopyFAQScraper:
             logger.warning("No posts to save!")
             return
 
+        # Deduplicate posts based on post_id
+        original_count = len(self.all_posts)
+        seen_ids = set()
+        deduplicated_posts = []
+
+        for post in self.all_posts:
+            post_id = post.get('post_id')
+            if post_id and post_id not in seen_ids:
+                seen_ids.add(post_id)
+                deduplicated_posts.append(post)
+
+        self.all_posts = deduplicated_posts
+        duplicates_removed = original_count - len(self.all_posts)
+
+        if duplicates_removed > 0:
+            logger.info(f"Removed {duplicates_removed} duplicate posts (kept {len(self.all_posts)} unique posts)")
+
         # Save to CSV
         csv_path = os.path.join(output_dir, OUTPUT_CONFIG['csv_filename'])
         df = pd.DataFrame(self.all_posts)
